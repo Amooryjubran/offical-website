@@ -18,13 +18,13 @@ export default function Navbar() {
                         </div>
                     </div>
                     <ul className="links">
-                        <li><Link>Home</Link></li>
-                        <li><Link>Blog</Link></li>
-                        <li><Link>Biography</Link></li>
-                        <li><Link>Interios</Link></li>
-                        <li><Link>Events</Link></li>
-                        <li><Link>Contact</Link></li>
-                        <li><Link>Inspirations</Link></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/blog">Blog</Link></li>
+                        <li><Link to="Biography">Biography</Link></li>
+                        <li><Link to="/Interios">Interios</Link></li>
+                        <li><Link to="/Events">Events</Link></li>
+                        <li><Link to="/Contact">Contact</Link></li>
+                        <li><Link to="/Inspirations">Inspirations</Link></li>
                     </ul>
                 </nav>
             </div>
@@ -92,10 +92,67 @@ const NavbarWrapper = styled.div`
         padding: 10px 25px;
         border-bottom: 1px solid #049fe1;
         background: rgba(0,0,0,0.1);
-
-        
     }
 
+    /* responsive */
+    @media screen and (min-width: 870px) {
+        .links {
+            transition: all 0s ease-in-out !important;
+        }
+    }
+    @media screen and (min-width: 880px) {
+        .header-container {
+            margin: 0 auto;
+            width: 100%;
+        }
+        .btn {
+            display: none;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            max-width: 1180px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .links {
+            position: relative;
+            transition: all 0s ease-in-out !important;
+            display: flex;
+            margin-right: 10px;
+            justify-content: space-between;
+            align-items: center;
+            top: auto;
+            background: transparent;
+            width: auto;
+            transform: translate(0);
+
+        }
+        .links li a{
+            margin: 0 2px;
+            padding: 10px;
+
+        }
+        .links li a:hover{
+            margin: 0 2px;
+            padding: 10px;
+            border: 1px solid #049fe1;
+            background: transparent;
+        }
+        .logoBtn {
+            border-bottom: 0;
+
+        }
+        
+    }
+    @media screen and (min-width: 960px) {
+        .logoBtn img {
+            display: block;
+            padding: 0 0px;
+
+        }
+    }
 
 
 `;
