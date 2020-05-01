@@ -10,6 +10,8 @@ import Inspirations from './Pages/Inspirations';
 import Default from './Pages/Default';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import {Switch, Route} from 'react-router-dom';
+
 
 
 function App() {
@@ -18,15 +20,19 @@ function App() {
       {/* navbar */}
       <Navbar />
 
-      <Home />
-      <Blog/>
-      <Biography/>
-      <Interios/>
-      <Events/>
-      <Contact/>
-      <Inspirations/>
-      <Default/>
+      <Switch >
+        <Route exact path="/" component={Home} />
+        <Route exact path="/Blog" component={Blog} />
+        <Route exact path="/Biography" component={Biography} />
+        <Route exact path="/Interios" component={Interios} />
+        <Route exact path="/Events" component={Events} />
+        <Route exact path="/Contact" component={Contact} />
+        <Route exact path="/Inspirations" component={Inspirations} />
+        <Route path="/Default" component={Default} />
+      </Switch>
       
+      {/* footer */}
+      <Footer />
     </div>
   );
 }
