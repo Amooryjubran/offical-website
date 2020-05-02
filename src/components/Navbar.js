@@ -9,19 +9,23 @@ export default function Navbar() {
         <ProductConsumer>
 
         {value=> {
+            const {sidebarOpen, handleSidebar, handleClose, links, scrollEffect, headerShow} = value;
             return(
-                <NavbarWrapper>
+                <NavbarWrapper show={sidebarOpen} posit={headerShow}>
             <div className="header-container">
                 <nav>
                     <div className="logoBtn">
-                        <Link to="/"><img src={logo} alt=""/></Link>
-                        <div className="btn">
+                        <Link to="/"
+                        onClick={handleClose}
+                        ><img src={logo} alt=""/></Link>
+                        <div className="btn" onClick={handleSidebar}>
                             <div className="bar"></div>
                             <div className="bar"></div>
                             <div className="bar"></div>
                         </div>
                     </div>
-                    <ul className="links">
+                    <ul className="links" onClick={handleClose}>
+                        
                         {
                             value.links.map( links => {
                                 return (
@@ -45,9 +49,9 @@ const NavbarWrapper = styled.div`
     position: sticky;
     top: 0;
     z-index: 6;
-    background: rgba(0,0,0,0.3);
-    transition: all 0.5s ease-in-out;
-    opacity: 0.9;
+    background: ${props=>props.posit ? 'rgba(0,0,0,0.7)': 'rgba(0,0,0,0.3)'};
+    transition: ${props=>props.posit ? 'all 0.5s ease-in-out': 'all 0s ease-in-out'};
+    opacity: ${props=>props.posit ? '1': '0.9'};
     .logoBtn img{
         display: block;
         padding: 0px;
@@ -82,7 +86,7 @@ const NavbarWrapper = styled.div`
         right:0px;
         background: rgba(0,0,0,0.9);
         width: 400px;
-        transform: translate(0%);
+        transform: ${props => props.show ? 'translate(0%)':'translate(-100%)'};
 
     }
     .links li a {

@@ -21,6 +21,7 @@ const ProductContext = React.createContext();
 
 class ProductProvider extends Component {
     state = {
+        // for navbar
         sidebarOpen: false,
         closeLinks: false,
         links: Links,
@@ -30,6 +31,7 @@ class ProductProvider extends Component {
         blogItems: blogItems,
         Interios: Interiors,
         Events: Events
+        // end navbar
 
     }
 
