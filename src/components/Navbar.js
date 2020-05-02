@@ -22,13 +22,13 @@ export default function Navbar() {
                         </div>
                     </div>
                     <ul className="links">
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/blog">Blog</Link></li>
-                        <li><Link to="Biography">Biography</Link></li>
-                        <li><Link to="/Interios">Interios</Link></li>
-                        <li><Link to="/Events">Events</Link></li>
-                        <li><Link to="/Contact">Contact</Link></li>
-                        <li><Link to="/Inspirations">Inspirations</Link></li>
+                        {
+                            value.links.map( links => {
+                                return (
+                                    <li key={links.id}><Link to={links.path}>{links.link}</Link></li> // for the links in the data filke
+                                )
+                            })
+                        }
                     </ul>
                 </nav>
             </div>
