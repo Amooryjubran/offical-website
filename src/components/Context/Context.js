@@ -32,6 +32,21 @@ class ProductProvider extends Component {
         Events: Events
 
     }
+
+    // open the nav
+    handleSidebar = () => {
+        this.setState({
+            sidebarOpen: !this.state.sidebarOpen
+        })
+        console.log('click');
+    }
+
+    // close it when clocking the sidebar
+    handleClose = () => (
+        this.setState({
+            sidebarOpen: false
+        })
+    )
     render() {
         return (
             <ProductContext.Provider value="hello"> 
