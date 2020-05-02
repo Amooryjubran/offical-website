@@ -25,7 +25,7 @@ export default function Navbar() {
                         {
                             value.links.map( links => {
                                 return (
-                                    <li key={links.id}><Link to={links.path}>{links.link}</Link></li> // for the links in the data filke
+                                    <li key={links.id}><Link to={links.path}>{links.link}</Link></li> // for the links and key id in the data filke
                                 )
                             })
                         }
