@@ -3,10 +3,14 @@ import logo from '../logo.png';
 import styled from 'styled-components';
 import BackImage from '../images/home.jpg';
 import {Link} from 'react-router-dom';
-
+import {ProductConsumer} from './Context/Context';
 export default function Navbar() {
     return (
-        <NavbarWrapper>
+        <ProductConsumer>
+
+        {value=> {
+            return(
+                <NavbarWrapper>
             <div className="header-container">
                 <nav>
                     <div className="logoBtn">
@@ -29,8 +33,13 @@ export default function Navbar() {
                 </nav>
             </div>
         </NavbarWrapper>
+            )
+        }}
+        </ProductConsumer>
     )
 }
+
+
 
 const NavbarWrapper = styled.div`
     position: sticky;

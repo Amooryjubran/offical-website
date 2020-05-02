@@ -23,7 +23,7 @@ class ProductProvider extends Component {
     state = {
         sidebarOpen: false,
         closeLinks: false,
-        links: links,
+        links: Links,
         services: Services,
         portfolio: Portfolio,
         headerShow: false,
@@ -47,9 +47,32 @@ class ProductProvider extends Component {
             sidebarOpen: false
         })
     )
+
+    // scrolling effects
+    componentDidMount() {
+        window.addEventListener("scroll", this.scrollEffect);
+    }
+
+    scrollEffect = () => {
+        if(window.scroll>50) {
+            this.setState({
+                handleShow: true
+            })
+        } else {
+            this.setState({
+                headerShow: false
+            })
+        }
+    }
     render() {
         return (
-            <ProductContext.Provider value="hello"> 
+            <ProductContext.Provider value={{
+                ...this.state,
+                handleSidebar: this.handleSidebar,
+                handleClose: this.handleClose,
+                scrollEffect: this.scrollEffect
+
+            }}> 
                 {this.props.children}
             </ProductContext.Provider>
         )
@@ -59,3 +82,5 @@ class ProductProvider extends Component {
 const ProductConsumer = ProductContext.Consumer;
 
 export {ProductProvider, ProductConsumer}
+
+
