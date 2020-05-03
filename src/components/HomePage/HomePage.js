@@ -22,7 +22,7 @@ export default function HomePage() {
             <ContactForm />
             <Twitter />
             <WhoIs />
-            
+            <Headers />
         </div>
     )
 }
