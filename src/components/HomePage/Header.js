@@ -19,7 +19,7 @@ export default function Header() {
 
 const HeroWrapper = styled.header`
     min-height: 60px;
-    
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), url(${BackImage})) center/cover no-repeat;
 
 
 `;
