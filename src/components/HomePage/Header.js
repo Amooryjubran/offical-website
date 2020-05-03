@@ -1,7 +1,7 @@
 import React from 'react';
 import Bounce from 'react-reveal/Bounce';
 import styled from 'styled-components';
-import BackImage from '../../images/home,jpg';
+import BackImage from '../../images/home.jpg';
 
 
 export default function Header() {
