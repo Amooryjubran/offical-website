@@ -9,10 +9,12 @@ export default function Header() {
         <HeroWrapper>
             <div className="inside-container">
                 <div className="heroTexts">
-                    <Bounce>
+                    <Bounce left duration={3000}>
                         <h1>Lorem ipsum dolor sit amet.</h1>
                     </Bounce>
+                    <Bounce right duration={3000}>
                     <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    </Bounce>
                 </div>
             </div>
         </HeroWrapper>
