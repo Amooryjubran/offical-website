@@ -26,7 +26,7 @@ class ProductProvider extends Component {
         closeLinks: false,
         links: Links,
         services: Services,
-        portfolio: Portfolio,
+        portfolio:Portfolio,
         headerShow: false,
         blogItems: blogItems,
         Interios: Interiors,

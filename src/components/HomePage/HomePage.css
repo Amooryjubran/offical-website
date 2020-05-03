@@ -68,3 +68,92 @@
 
 
 /* end of services */
+
+
+
+
+/* portfolio section */
+
+.portfolio{
+  padding:30px 10px;
+
+}
+
+.single-portfolio{
+  width:100%;
+  min-height: 55vh;
+  margin:20px auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  position:relative;
+}
+
+.plus{
+  color:#fff;
+  background:rgba(0,0,0,0.6);
+  width:inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-plus{
+  cursor: pointer;
+  transform: translateY(-70%);
+  transition:transform 1s ease-in-out;
+  font-size: 30px;
+}
+
+.single-portfolio:hover .plus{
+  transform: scale(1);
+  position: relative;
+}
+
+.single-portfolio:hover .fa-plus{
+  transform: translateY(0%);
+}
+
+/* responsive mode */
+@media screen and (min-width:664px){
+  .portfolio-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+.single-portfolio{
+  flex:0 0 calc(50% - 10px);
+  margin:10px 0;
+}
+
+
+}
+
+@media screen and (min-width:868px){
+
+  .portfolio{
+    padding:60px 0;
+  }
+  .portfolio-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+.single-portfolio{
+
+  min-height: 32vh;
+  flex:0 0 calc(25% - 10px);
+  margin:10px 0;
+}
+
+
+}
+
+
+
+/*end of portfolio section */
