@@ -351,3 +351,133 @@
 
 
 /*end of section who is */
+
+
+/* testimonial section */
+
+.testimonial{
+  padding: 30px 10px;
+}
+
+.testimonial-center{
+  color:#989c9f;
+  position: relative;
+}
+
+.testimonial-texts{
+  margin-right: 30px;
+
+}
+
+.testimonial-icon{
+ position: absolute;
+ top:-40px;
+ right:0;
+}
+
+@media screen and (min-width:868px){
+  .testimonial{
+    padding:60px 0;
+  }
+}
+
+
+/*end of testimonial section */
+
+
+
+
+/* CONTACT FORM */
+.contact-form{
+  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(/images/backForm.jpg) 100% 100%/cover no-repeat;
+  padding: 30px 10px;
+}
+
+.contact-form-center{
+  color: #e8f4dc;
+}
+
+.form-inputs-texts .inputs input,
+.form-area textarea{
+  width: 100%;
+  padding: 5px 5px;
+  border:1px solid #e8f4dc;
+  background:transparent;
+  font-size: 20px;
+  color:#e8f4dc;
+  box-shadow: 0 0 2px 0 #e8f4dc;
+  color:#e8f4dc;
+}
+
+.form-inputs-texts,
+.inputs .name{
+  margin-bottom: 30px;
+}
+
+.form-texts{
+  margin:30px 0;
+}
+
+.form-texts p:nth-of-type(1){
+  margin:10px 0;
+}
+
+form p{
+  margin-bottom: 5px;
+}
+
+.btnForm{
+  margin-top: 20px;
+  font-size: 18px;
+  padding:10px;
+  width:200px;
+  background:#92b960;
+  border:none;
+  opacity:1;
+}
+
+.btnForm:hover{
+  
+  opacity:0.8;
+}
+
+/* responsive mode */
+
+@media screen and (min-width:664px){
+  .form-inputs-texts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .inputs{
+    flex:0 0 45%;
+  }
+
+  .form-texts{
+    flex:0 0 40%;
+    margin:0;
+  }
+
+  form p{
+    margin-bottom: 0;
+  }
+}
+
+
+
+@media screen and (min-width:868px){
+  .contact-form{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(/images/backForm.jpg);
+    padding: 60px 10px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+}
+
+
+
+
+/* END OF CONTACT FORM  */
