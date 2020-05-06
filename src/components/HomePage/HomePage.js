@@ -20,10 +20,10 @@ export default function HomePage() {
             <Services/>
             <Portfolio />
             <JustDefault />
-            <Tesimonials />
-            <ContactForm />
             <Twitter />
             <WhoIs />
+            <Tesimonials />
+            <ContactForm />
         </div>
     )
 }

@@ -11,7 +11,7 @@ export default function JustDefault() {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos illum, laborum voluptates iste perspiciatis nobis modi deleniti nulla beatae vero nam necessitatibus? Quasi atque amet ex, placeat consectetur nobis magni!</p>
 
                     </div>
-                    <div className="just-videos">
+                    <div className="just-video">
                     <iframe   src="https://www.youtube.com/embed/g-5O2HTbk08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style={{border:"none"}}></iframe>
                     </div>
                 </div>

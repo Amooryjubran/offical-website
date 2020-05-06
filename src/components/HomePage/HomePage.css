@@ -241,3 +241,33 @@
 
 
 /* end default */
+
+
+/* twitter section */
+.twitter{
+  padding: 30px 10px;
+  background: #92b960;
+}
+
+.twitter-center{
+  color:#e8f4dc;
+  position: relative;
+}
+
+.twitter-texts{
+  margin-right: 40px;
+}
+
+.twitter-icon{
+  position: absolute;
+  top:-40px;
+  right:0;
+}
+
+@media screen and (min-width:868px){
+  .twitter{
+    padding: 60px 0;
+  }
+}
+
+/*end of twitter section */
