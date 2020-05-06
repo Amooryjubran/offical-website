@@ -1,9 +1,25 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
+import {ProductConsumer} from './Context/Context';
 
 export default function Footer() {
     return (
-        <div>
-            <p>this is the footer</p>
-        </div>
+        <ProductConsumer>
+            {value => {
+                return (
+                    <footer>
+                        <ul>
+                        {
+                        value.links.map(links=>{
+                            return(
+                            <li key={links.id}><Link to={links.path}>{links.link}</Link></li> 
+                            )
+                        })
+                    }
+                        </ul>
+                    </footer>
+                )
+            }}
+        </ProductConsumer>
     )
 }

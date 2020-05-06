@@ -481,3 +481,49 @@ form p{
 
 
 /* END OF CONTACT FORM  */
+
+/* footer */
+footer{
+  padding:30px 10px;
+  background:#353f48;
+}
+
+footer ul{
+  text-align: center;
+}
+
+footer ul li a{
+  color:lightgray;
+  margin:5px 0;
+  padding:5px;
+  display: inline-block;
+
+}
+
+footer ul li a:hover{
+  color:white;
+}
+
+/* responsive mode */
+@media screen and (min-width:664px){
+  footer ul{
+    display: flex;
+    width:90%;
+    margin:0 auto;
+  }
+
+  footer ul li a{
+    color:lightgray;
+    margin: 0px 5px;
+    display: inline-block;
+  }
+}
+
+
+@media screen and (min-width:868px){
+ footer {
+   padding:60px 0;
+ }
+}
+
+/* end of footer */
