@@ -271,3 +271,83 @@
 }
 
 /*end of twitter section */
+
+
+/* section who is */
+.whoIs{
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(/images/whoBack.jpg);
+  padding: 30px 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.whoIs-center .texts,
+.whoIs-center .text-icons{
+  color:#e8f4dc
+}
+
+.text-icons{
+  margin-top: 30px;
+}
+
+.text-icons .media-icons a{
+  color:#e8f4dc;
+  border:3px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  margin:0 auto;
+  margin-right: 10px;
+  display: inline-block;
+  text-align: center;
+  opacity: 1;
+  transition: border 0.5s ease-in-out;
+}
+
+.text-icons .media-icons a:hover{
+  border:3px solid #92b960;
+  opacity: 0.9;
+}
+
+/* responsive */
+@media screen and (min-width:764px){
+ .whoIs-center{
+   display: flex;
+   justify-content: space-between;
+ }
+
+.whoIs-center .texts,
+.whoIs-center .text-icons{
+  flex:0 0 calc(50% - 30px);
+  margin:0 auto;
+}
+
+
+
+}
+
+
+@media screen and (min-width:864px){
+
+ .whoIs{
+   padding: 60px 0;
+ }
+
+
+
+.whoIs-center .texts,
+.whoIs-center .text-icons{
+  flex:0 0 calc(50% - 50px);
+  margin:0 ;
+}
+
+
+
+}
+
+
+
+
+/*end of section who is */
