@@ -1,9 +1,10 @@
 import React from 'react'
+import BiographyPage from '../components/BiographyPage/BiographyPage'
 
 export default function Biography() {
     return (
         <div>
-            <h1>hello from Biography</h1>
+            <BiographyPage />
         </div>
     )
 }
