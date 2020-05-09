@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter} from 'react-router-dom';
+import ScrollIntoView from './scrollToTop';
 import {ProductProvider} from './components/Context/Context';
 
 
@@ -11,8 +12,11 @@ ReactDOM.render(
   <ProductProvider>
 
   <BrowserRouter>
+  <ScrollIntoView>
     <App />
+    </ScrollIntoView>
   </BrowserRouter>
+
   </ProductProvider>,
   document.getElementById('root')
 );
