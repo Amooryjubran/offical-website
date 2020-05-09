@@ -1,9 +1,10 @@
 import React from 'react'
+import EventsPage from '../components/EventsPage/RecentEvents'
 
 export default function Events() {
     return (
         <div>
-             <h1>Hello from Events</h1>
+             <EventsPage/>
         </div>
     )
 }
