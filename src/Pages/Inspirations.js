@@ -1,9 +1,10 @@
 import React from 'react'
+import InspirationsPage from '../components/InspirationsPage/InspirationsPage'
 
 export default function Inspirations() {
     return (
         <div>
-             <h1>Hello from Inspirations</h1>
+             <InspirationsPage />
         </div>
     )
 }
