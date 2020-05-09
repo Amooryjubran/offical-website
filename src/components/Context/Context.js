@@ -29,7 +29,7 @@ class ProductProvider extends Component {
         portfolio:Portfolio,
         headerShow: false,
         blogItems: blogItems,
-        Interios: Interiors,
+        Interiors:Interiors,
         Events: Events
         // end navbar
 

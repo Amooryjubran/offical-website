@@ -20,7 +20,7 @@ export const Links=[
     {
         id:4,
         link:"Interiors",
-        path:'/interiors'
+        path:'/Interios'
     },
     {  
         id:5,

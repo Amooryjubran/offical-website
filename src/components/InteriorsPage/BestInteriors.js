@@ -1,5 +1,5 @@
 import React from 'react';
-import Bounce from 'react-reveal';
+import Bounce from 'react-reveal/Bounce';
 import Title from '../Title';
 import BackInterior from '../../images/decor2.jpg';
 import {ProductConsumer} from '../Context/Context';

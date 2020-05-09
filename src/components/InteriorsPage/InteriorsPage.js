@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 import BestInteriors from './BestInteriors';
 import './BestInteriors.css';
 
 export default function InteriorsPage() {
     return (
-        <div>
-            <BestInteriors />
-        </div>
+        <>
+            <BestInteriors/>
+        </>
     )
 }
