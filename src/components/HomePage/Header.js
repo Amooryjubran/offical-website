@@ -13,7 +13,7 @@ export default function Header() {
                     <Bounce left duration={3000}>
                         <h1>Your favourite italian pizza <span role="img" aria-label="pizza">🍕</span></h1>
                     </Bounce>
-                    <Bounce right duration={9000}>
+                    <Bounce right duration={9500}>
                     <h1>made with organic ingredients by experts </h1>
                     </Bounce>
                 </div>
