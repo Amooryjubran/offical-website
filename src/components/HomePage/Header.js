@@ -1,5 +1,6 @@
 import React from 'react';
 import Bounce from 'react-reveal/Bounce';
+import Rotate from 'react-reveal/Rotate';
 import styled from 'styled-components';
 import BackImage from '../../images/home.jpg';
 
@@ -10,10 +11,10 @@ export default function Header() {
             <div className="inside-container">
                 <div className="heroTexts">
                     <Bounce left duration={3000}>
-                        <h1>Lorem ipsum dolor sit amet.</h1>
+                        <h1>Your favourite italian pizza <span role="img" aria-label="pizza">🍕</span></h1>
                     </Bounce>
-                    <Bounce right duration={3000}>
-                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <Bounce right duration={9000}>
+                    <h1>made with organic ingredients by experts </h1>
                     </Bounce>
                 </div>
             </div>

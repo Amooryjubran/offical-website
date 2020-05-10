@@ -51,19 +51,19 @@ export const Services=[
     },
     {   
         id:2,
-        icon:"fas fa-archway",
+        icon:"fas fa-utensils",
         column:'Column 2',
         text:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam laboriosam et quibusdam. Vero laboriosam obcaecati autem quos saepe eaque"
     },
     {
         id:3,
-        icon:"fas fa-paint-roller",
+        icon:"fas fa-pizza-slice",
         column:'Column 3',
         text:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam laboriosam et quibusdam. Vero laboriosam obcaecati autem quos saepe eaque"
     },
     {
         id:4,
-        icon:"fas fa-crop-alt",
+        icon:"fas fa-truck",
         column:'Column 4',
         text:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam laboriosam et quibusdam. Vero laboriosam obcaecati autem quos saepe eaque"
     },
