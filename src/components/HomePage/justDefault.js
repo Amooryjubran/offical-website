@@ -12,7 +12,7 @@ export default function JustDefault() {
 
                     </div>
                     <div className="just-video">
-                    <iframe   src="https://www.youtube.com/embed/g-5O2HTbk08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style={{border:"none"}}></iframe>
+                    <iframe   src="https://www.youtube.com/embed/n-VRntrbypI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style={{border:"none"}}></iframe>
                     </div>
                 </div>
             </div>
