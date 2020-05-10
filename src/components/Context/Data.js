@@ -46,26 +46,26 @@ export const Services=[
     {
         id:1,
         icon:"fas fa-home",
-        column:'Column 1',
-        text:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam laboriosam et quibusdam. Vero laboriosam obcaecati autem quos saepe eaque"
+        column:'Homemade',
+        text:"Our pizza is made just to make you feel like you are eating pizza in Italy, made with fresh and organic ingredients "
     },
     {   
         id:2,
         icon:"fas fa-utensils",
-        column:'Column 2',
-        text:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam laboriosam et quibusdam. Vero laboriosam obcaecati autem quos saepe eaque"
+        column:'Equempents',
+        text:"We have the best cooking equipments on town, liscened and recognized by the goverment of Quebec. Aur equipments were brought from Italy"
     },
     {
         id:3,
         icon:"fas fa-pizza-slice",
-        column:'Column 3',
-        text:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam laboriosam et quibusdam. Vero laboriosam obcaecati autem quos saepe eaque"
+        column:'Ingriedents',
+        text:"We make the best pizzas in the country, we have been recognised by 200 magazines, and we were selected to be the best pizza shop in the country."
     },
     {
         id:4,
         icon:"fas fa-truck",
-        column:'Column 4',
-        text:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam laboriosam et quibusdam. Vero laboriosam obcaecati autem quos saepe eaque"
+        column:'Delievery',
+        text:"What makes us special is that we cook your favourite pizza and make sure to be delivered at your door under 20 minutes, and it's completly free."
     },
   
   
