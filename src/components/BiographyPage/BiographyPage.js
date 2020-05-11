@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../Title';
-import BackPerson from '../../images/man.png';
+import BackPerson from '../../images/man.jpg';
 import Bounce from 'react-reveal/Bounce';
 import './biographyPage.css';
 
@@ -11,8 +11,8 @@ export default function BiographyPage() {
     return (
         <section className="biography">
             <div className="inside-container">
-                <h4>Home decorator</h4>
-                <h1>John Doe</h1>
+                <h4>Our Chief</h4>
+                <h1>Valentino Vazzanae</h1>
                 <div className="biography-links">
                  <li>
                     <a href="#">
@@ -55,9 +55,11 @@ export default function BiographyPage() {
                     </Bounce>
                    
                     <div className="person-texts">
-                        <Title title="john doe" color="#fff" />
+                        <Title title="Valentino Vazzanae" color="#fff" />
                         <Bounce right duration={2000} cascade>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, rerum. Quis, maiores nobis! Perferendis fugit nobis, nisi minima porro exercitationem laboriosam et enim quia quisquam amet iusto praesentium ex sunt.</p>
+                        <p>
+                            Valentino has been a chef for 30 years, he's been making the real italian reciepes from his italian family to the resturant. He was nominated one of the best chefs in the country. Our customers are obessed with the pizzas he makes. He's also very friendly and passionate about cooking.
+                        </p>
                         </Bounce>
                         
                     </div>

@@ -10,7 +10,7 @@ export default function Portfolio() {
               return(
         <section className="portfolio">
         <div className="inside-container">
-            <Title title="products" color="#323232" />
+            <Title title="Pizzas" color="#323232" />
     <div className="portfolio-center">
         {portfolio.map(portfolio=>{
             return(

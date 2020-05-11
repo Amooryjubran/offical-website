@@ -76,23 +76,23 @@ export const Services=[
 export const Tools=[
     {
         id:1,
-        img:"images/decor1.jpg",
-        plus:"different trypes of pizza"
+        img:"images/pasta1.jpg",
+        plus:"puur fav pasta"
        
     },
     {   
         id:2,
-        img:"../../images/decor2.jpg",
+        img:"../../images/pasta2.jpg",
         plus:"Mastoooorah"
     },
     {
         id:3,
-        img:"../../images/decor3.jpg",
+        img:"../../images/pasta3.jpg",
         plus:"Omar",
     },
     {
         id:4,
-        img:"../../images/decor4.jpg",
+        img:"../../images/pasta4.jpg",
         plus:"Saeeeed"
     }
   

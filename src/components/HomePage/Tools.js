@@ -8,9 +8,9 @@ export default function Tools() {
           {value=>{
               const {tools}=value;
               return(
-        <section className="portfolio">
+        <section className="portfolio" >
         <div className="inside-container">
-            <Title title="products" color="#323232" />
+            <Title title="Pastas" color="#323232" />
     <div className="portfolio-center">
         {tools.map(tools=>{
             return(
