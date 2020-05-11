@@ -6,6 +6,7 @@ import {Portfolio} from '../Context/Data';
 import {blogItems} from '../Context/Data';
 import {Interiors} from '../Context/Data';
 import {Events} from '../Context/Data';
+import {Tools} from '../Context/Data';
 
 
 
@@ -27,6 +28,7 @@ class ProductProvider extends Component {
         links: Links,
         services: Services,
         portfolio:Portfolio,
+        tools: Tools,
         headerShow: false,
         blogItems: blogItems,
         Interiors:Interiors,

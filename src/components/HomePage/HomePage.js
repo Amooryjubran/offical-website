@@ -10,6 +10,7 @@ import ContactForm from './ContactForm';
 import Twitter from './Twitter';
 import WhoIs from './WhoIs';
 import JustDefault from './JustDefault';
+import Tools from './Tools';
 
 
 
@@ -19,6 +20,7 @@ export default function HomePage() {
             <Header />
             <Services/>
             <Portfolio />
+            <Tools />
             <JustDefault />
             <Twitter />
             <WhoIs />
