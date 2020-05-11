@@ -20,7 +20,7 @@
     background-size: cover;
     padding: 10px 10px;
     color: #fff;
-    margin: 100px auto;
+    margin: 10px auto;
 }
 .single-service{
     margin: 0 auto;
@@ -251,11 +251,12 @@
 /* twitter section */
 .twitter{
   padding: 30px 10px;
- background-color: darkslateblue;
+ background-color: #fff;
 }
 
 .twitter-center{
-  color:#e8f4dc;
+  color:#989c9f;
+  ;
   position: relative;
 }
 
@@ -267,6 +268,7 @@
   position: absolute;
   top:-40px;
   right:0;
+  color: lightskyblue;
 }
 
 @media screen and (min-width:868px){
@@ -289,7 +291,7 @@
 
 .whoIs-center .texts,
 .whoIs-center .text-icons{
-  color:#e8f4dc
+  color:#e8f0f7
 }
 
 .text-icons{
@@ -398,7 +400,7 @@
 
 /* CONTACT FORM */
 .contact-form{
-  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(/images/backForm.jpg) 100% 100%/cover no-repeat;
+  background:url(/images/backForm.jpg) 100% 100%/cover no-repeat;
   padding: 30px 10px;
 }
 

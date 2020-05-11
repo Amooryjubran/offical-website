@@ -18,13 +18,14 @@ export default function HomePage() {
     return (
         <div>
             <Header />
+            <Twitter />
             <Services/>
             <Portfolio />
             <Tools />
             <JustDefault />
-            <Twitter />
-            <WhoIs />
             <Tesimonials />
+            <WhoIs />
+            
             <ContactForm />
         </div>
     )

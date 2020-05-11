@@ -6,7 +6,6 @@ import Biography from './Pages/Biography';
 import Interiors from './Pages/Interiors';
 import Events from './Pages/Events';
 import Contact from './Pages/Contact';
-import Inspirations from './Pages/Inspirations';
 import Default from './Pages/Default';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -28,7 +27,6 @@ function App() {
         <Route exact path="/Interios" component={Interiors} />
         <Route exact path="/Events" component={Events} />
         <Route exact path="/Contact" component={Contact} />
-        <Route exact path="/Inspirations" component={Inspirations} />
         <Route path="/Default" component={Default} />
       </Switch>
       

@@ -7,10 +7,10 @@ export default function Twitter() {
     return (
         <div className="twitter">
             <div className="inside-container">
-                <Title title="twitter" color="#e8f4dc" />
+                <Title title="twitter" color="#989c9f" />
                 <div className="twitter-center">
                     <div className="twitter-texts">
-                        <p>I have tried TASTE OF ROME once, and ever since i became so addicted to it. My family has been going their occationally. I have requested an event for my birthday with friends and family, and it was a blast. Everyone loved it.</p>
+                        <p>Now Taste Of Rome has officially launched the events offer. People can order make a party at home and getting all the different types of our italian food at their home, so they can enjoy it with their beloved family and friends.</p>
                     </div>
                     <div className="twitter-icon">
                         <i className="fab fa-twitter"></i>

@@ -32,11 +32,6 @@ export const Links=[
         link:"Contact",
         path:'/contact'
     },
-    {
-        id:7,
-        link:"Inspirations",
-        path:'/inspirations'
-    },
     
 ]
 

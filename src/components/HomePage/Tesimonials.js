@@ -8,7 +8,7 @@ export default function Tesimonials() {
                  <Title title="testimonials" color="#989c9f" />
                  <div className="testimonial-center">
                      <div className="testimonial-texts">
-                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos ipsa, repellat ullam sunt error necessitatibus architecto dolorem dolorum saepe assumenda commodi rerum perferendis non quam. Corporis eum atque quisquam non!</p>
+                         <p>There is no doubt why Tase Of Rome is the best Italian resturant on town. Always loved their food, specially their pizzas. Please do yourself a favour, and give it a try, you won't be disappointed.</p>
                      </div>
                      <div className="testimonial-icon">
                          <i className="fas fa-quote-right"></i>

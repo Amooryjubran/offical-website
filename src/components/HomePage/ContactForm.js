@@ -11,7 +11,7 @@ export default function ContactForm() {
           <form >
               <div className="form-inputs-texts">
                 <div className="inputs">
-                    <p><label htmlFor="name">FULLNAME</label></p>
+                    <p><label htmlFor="name">FULL NAME</label></p>
                     <input type="text" className="name" name="" id=""/>
                     
                     <p><label htmlFor="email">EMAIL</label></p>
