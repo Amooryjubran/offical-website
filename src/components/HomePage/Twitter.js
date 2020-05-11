@@ -2,6 +2,7 @@ import React from 'react';
 import Title from '../Title';
 
 
+
 export default function Twitter() {
     return (
         <div className="twitter">
@@ -9,7 +10,7 @@ export default function Twitter() {
                 <Title title="twitter" color="#e8f4dc" />
                 <div className="twitter-center">
                     <div className="twitter-texts">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime ea ducimus dolor dignissimos commodi dolorem odio illo ex itaque officiis sunt nemo aliquid, cupiditate incidunt excepturi asperiores nobis! Aspernatur, cupiditate.</p>
+                        <p>I have tried TASTE OF ROME once, and ever since i became so addicted to it. My family has been going their occationally. I have requested an event for my birthday with friends and family, and it was a blast. Everyone loved it.</p>
                     </div>
                     <div className="twitter-icon">
                         <i className="fab fa-twitter"></i>
