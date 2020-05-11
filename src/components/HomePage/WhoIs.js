@@ -5,14 +5,14 @@ export default function WhoIs() {
     return (
         <div className="whoIs">
            <div className="inside-container">
-              <Title title="who is john doe" color="#e8f4dc" /> 
+              <Title title="Taste of Rome" color="#e8f4dc" /> 
 
               <div className="whoIs-center">
                   <div className="texts">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minus reprehenderit non quos sint, repudiandae voluptate facere beatae unde deserunt ratione vel soluta alias quia odit, atque officia, nihil laudantium.</p>
+                      <p>Taste of Rome is a family resturant that was estabilished in 1960 in Toronto. It was founded by an italian family who imgirated to Canada in the 60s. The resturant has earned their reputation by providing great italin food with oraginc ingreidents. It's known best for the pizzas we have.</p>
                  </div>
                  <div className="text-icons">
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur laboriosam quos vero.</p>
+                     <p className="socialmedia">You can follow us in our social media accounts.</p>
                      <div className="media-icons">
                          <a href="#"><i className="fab fa-twitter"></i></a>
                          <a href="#"><i className="fab fa-facebook-f"></i></a>
