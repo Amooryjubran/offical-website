@@ -76,44 +76,45 @@ export const Portfolio=[
     {
         id:1,
         img:"images/decor1.jpg",
-        plus:"fas fa-plus"
+        plus:"different trypes of pizza"
        
     },
     {   
         id:2,
         img:"../../images/decor2.jpg",
-        plus:"fas fa-plus"
+        plus:"Mastoooorah"
     },
     {
         id:3,
         img:"../../images/decor3.jpg",
-        plus:"fas fa-plus",
+        plus:"Omar",
     },
     {
         id:4,
         img:"../../images/decor4.jpg",
-        plus:"fas fa-plus"
-    },
-    {
-        id:5,
-        img:"../../images/decor5.jpg",
-        plus:"fas fa-plus"
-    },
-    {
-        id:6,
-        img:"../../images/decor6.jpg",
-        plus:"fas fa-plus"
-    },
-    {
-        id:7,
-        img:"../../images/decor7.jpg",
-        plus:"fas fa-plus"
-    },
-    {
-        id:8,
-        img:"../../images/decor8.jpg",
-        plus:"fas fa-plus"
-    },
+        plus:"Saeeeed"
+    }
+    // ,
+    // {
+    //     id:5,
+    //     img:"../../images/decor5.jpg",
+    //     plus:"fas fa-plus"
+    // },
+    // {
+    //     id:6,
+    //     img:"../../images/decor6.jpg",
+    //     plus:"fas fa-plus"
+    // },
+    // {
+    //     id:7,
+    //     img:"../../images/decor7.jpg",
+    //     plus:"fas fa-plus"
+    // },
+    // {
+    //     id:8,
+    //     img:"../../images/decor8.jpg",
+    //     plus:"fas fa-plus"
+    // },
   
   
 ]
