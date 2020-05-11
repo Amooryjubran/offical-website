@@ -77,23 +77,23 @@ export const Tools=[
     {
         id:1,
         img:"images/pasta1.jpg",
-        plus:"puur fav pasta"
+        plus:"Cannelloni"
        
     },
     {   
         id:2,
         img:"../../images/pasta2.jpg",
-        plus:"Mastoooorah"
+        plus:"Linguine"
     },
     {
         id:3,
         img:"../../images/pasta3.jpg",
-        plus:"Omar",
+        plus:"Maccheroncini",
     },
     {
         id:4,
         img:"../../images/pasta4.jpg",
-        plus:"Saeeeed"
+        plus:"Tagliatelle"
     }
   
   
@@ -103,23 +103,23 @@ export const Portfolio=[
     {
         id:1,
         img:"images/decor1.jpg",
-        plus:"different trypes of pizza"
+        plus:"Neapolitan Pizza."
        
     },
     {   
         id:2,
         img:"../../images/decor2.jpg",
-        plus:"Mastoooorah"
+        plus:"Pineapple Pizza"
     },
     {
         id:3,
         img:"../../images/decor3.jpg",
-        plus:"Omar",
+        plus:"Our homemade dough",
     },
     {
         id:4,
         img:"../../images/decor4.jpg",
-        plus:"Saeeeed"
+        plus:"pepperoni pizza"
     }
     // ,
     // {
