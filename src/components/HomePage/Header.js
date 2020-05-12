@@ -10,12 +10,23 @@ export default function Header() {
         <HeroWrapper>
             <div className="inside-container">
                 <div className="heroTexts">
-                    <Bounce left duration={3000}>
-                        <h1>Your favourite italian pizza <span role="img" aria-label="pizza">🍕</span></h1>
+                    <Bounce left duration={1}>
+                        <h1>Taste Of Rome <span role="img" aria-label="pizza">🍕</span></h1>
                     </Bounce>
-                    <Bounce right duration={9500}>
-                    <h1>made with organic ingredients by experts </h1>
+                    <Bounce right duration={1}>
+                    <h1>made with organic ingredients</h1>
                     </Bounce>
+                    
+                </div>
+                <div className="pizza" style={{marginLeft: '-400px'}}>
+
+                <hr style={{color: 'white'}}/>
+                <h1 style={{color: 'white', marginTop: '35px', marginBottom: '35px', fontSize: '25px', fontWeight: '400'}}>Your Italian homemade food is right here</h1>
+                <button style={{backgroundColor: 'Transparent', height: '40px', width: '100px',
+                backgroundRepeat: 'no-repeat', border: '2px solid white', cursor: 'pointer', color: 'white'}}>Book Now ></button>
+                <button style={{backgroundColor: 'orange',border: 'none', color: 'black',
+                 height: '40px', width: '100px', marginLeft: '20px', cursor: 'pointer'
+                }}>See Menu ></button>
                 </div>
             </div>
         </HeroWrapper>
@@ -31,6 +42,7 @@ const HeroWrapper = styled.header`
     width: 100%;
     overflow: hidden;
     justify-content: center;
+    
 
     .heroTexts {
         min-height: inherit;
@@ -39,15 +51,16 @@ const HeroWrapper = styled.header`
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        opacity: 0.8;
-        text-align: center;
+        /* opacity: 0.8; */
+        margin-left: -400px;
+        
     }
 
     .heroTexts h1{
         font-size: 18px;
         text-transform: uppercase;
-        color: lightgray;
-        background: rgba(46, 89, 83, 1);
+        color: white;
+        
         
         margin: 5px;
         padding: 5px;
