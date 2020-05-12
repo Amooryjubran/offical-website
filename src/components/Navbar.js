@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../logo (2).png';
+import logo from '../Capture-removebg-preview.png';
 import styled from 'styled-components';
 import BackImage from '../images/home.jpg';
 import {Link} from 'react-router-dom';
@@ -17,7 +17,7 @@ export default function Navbar() {
                     <div className="logoBtn">
                         <Link to="/"
                         onClick={handleClose}
-                        ><img src={logo} style={{width: '100px', opacity: '0.5', borderRadius: '5%'}} alt=""/></Link>
+                        ><img src={logo} style={{width: '150px',  borderRadius: '5%'}} alt=""/></Link>
                         <div className="btn" onClick={handleSidebar}>
                             <div className="bar"></div>
                             <div className="bar"></div>
