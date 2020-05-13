@@ -73,6 +73,17 @@ const HeroWrapper = styled.header`
         min-height: 100vh;
         .heroTexts h1 {
             font-size: 30px;
+            
+            
+        }
+    }
+    @media screen and (max-width: 760px) {
+        min-height: 100vh;
+        .heroTexts h1 {
+            margin-left: 650px;
+        }
+        .pizza hr, button{
+            margin-left: 640px;
         }
     }
 `;
