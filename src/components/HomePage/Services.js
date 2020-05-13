@@ -13,11 +13,11 @@ export default function Services() {
                     <section className="services">
                         <div className="inside-container">
                             <Title  title="Services" color="#fff"/>
-                            <div className="services-center">
+                            <div className="services-center" >
                                 {services.map(service => {
                                     return (
                                         <Roll>
-                                             <div className="single-service" key={service.id}>
+                                             <div className="single-service" key={service.id} >
                                             <i className={service.icon}></i>
                                             <div className="texts">
                                                 <h2>{service.column}</h2>
