@@ -11,6 +11,7 @@ import Twitter from './Twitter';
 import WhoIs from './WhoIs';
 import JustDefault from './JustDefault';
 import Tools from './Tools';
+import Specials from './Specials';
 
 
 
@@ -25,7 +26,7 @@ export default function HomePage() {
             <JustDefault />
             <Tesimonials />
             <WhoIs />
-            
+            <Specials />
             <ContactForm />
         </div>
     )
