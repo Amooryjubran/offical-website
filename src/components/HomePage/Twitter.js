@@ -13,7 +13,7 @@ export default function Twitter() {
                         <p>Now Taste Of Rome has officially launched the events offer. People can order make a party at home and getting all the different types of our italian food at their home, so they can enjoy it with their beloved family and friends.</p>
                     </div>
                     <div className="twitter-icon">
-                        <i className="fab fa-twitter"></i>
+                        <i className="fab fa-twitter fa-lg" ></i>
                     </div>
                 </div>
             </div>

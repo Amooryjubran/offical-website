@@ -19,10 +19,10 @@ export default function ContactForm() {
               </div> 
 
               <div className="form-texts">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, earum incidunt. Esse impedit magni accusamus consectetur libero odit, sint assumenda. Eveniet ea consectetur at debitis, nisi sint voluptatem aliquid molestias.</p>
-                  <p>lorem ipsum</p>
-                  <p>+00 123 street,city,country</p>
-                  <p>(000) 000-0000</p>
+                  <p>Feel free to contact us with your orders, events, suggestions, recoomendations, and feednack. We are always open for them and will response to you withen 24 hours. Please right it down and send it to us. </p>
+                  <p>Taste Of Rome</p>
+                  <p>1455 Boulevard de Maisonneuve, Montreal, QC H3G1M8</p>
+                  <p>(514) 123-4567</p>
               </div> 
 
               </div>
