@@ -4,7 +4,7 @@ import { Route } from 'react-router-dom';
 
 import Owner from './Owner';
 import Ownsers from './Ownsers';
-import Title from '../Title';
+import './owner.css'
 
 const FilmsContainer = (props) =>  {
     let filmsUrl = OwnersList.map((film) => {

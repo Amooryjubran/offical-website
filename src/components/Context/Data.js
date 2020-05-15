@@ -169,15 +169,15 @@ export const blogItems=[
 // ownsers
 export const OwnersList = [
     {
-        name: "Lorem",
+        name: "Protasio Saldutti",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
-        img_src:"https://images.pexels.com/photos/887827/pexels-photo-887827.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        img_src:"https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
         position: "winner",
-        profile_img: "https://images.pexels.com/photos/887827/pexels-photo-887827.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        profile_img: "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
         url: "Lorem1"
     },
     {
-        name: "Lorem",
+        name: "Massimo Ridolfi",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
         img_src: "https://images.pexels.com/photos/2544829/pexels-photo-2544829.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
         id: "nominee",
@@ -185,21 +185,21 @@ export const OwnersList = [
         url: "Lorem2"
     },
     {
-      name: "Lorem",
+      name: "Iginia Novella",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
       img_src: "https://images.pexels.com/photos/3785706/pexels-photo-3785706.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
       profile_img: "https://images.pexels.com/photos/3785706/pexels-photo-3785706.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
       url: "Lorem3"
     },
     {
-        name: "Lorem ",
+        name: "Magda Novella",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
         img_src: "https://images.pexels.com/photos/3785710/pexels-photo-3785710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         profile_img: "https://images.pexels.com/photos/3785693/pexels-photo-3785693.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
         url: "Lorem4"
     },
     {
-        name:"Lorem",
+        name:"Gerardo Tomaro",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
         
         profile_img: "https://images.pexels.com/photos/3692762/pexels-photo-3692762.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
@@ -207,7 +207,7 @@ export const OwnersList = [
         url: "Lorem5"
     },
     {
-        name: "Lorem",
+        name: "Cesare Riotto",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
         img_src: "https://images.pexels.com/photos/2494654/pexels-photo-2494654.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
         profile_img: "https://images.pexels.com/photos/2494646/pexels-photo-2494646.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
