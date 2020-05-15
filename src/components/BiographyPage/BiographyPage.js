@@ -11,7 +11,7 @@ export default function BiographyPage() {
     return (
         <section className="biography">
             <div className="inside-container">
-                <h4>Our Chief</h4>
+                <h4>Our Chef</h4>
                 <h1>Valentino Vazzanae</h1>
                 <div className="biography-links">
                  <li>

@@ -7,6 +7,7 @@ import {blogItems} from '../Context/Data';
 import {Interiors} from '../Context/Data';
 import {Events} from '../Context/Data';
 import {Tools} from '../Context/Data';
+import {OwnersList} from '../Context/Data';
 
 
 
@@ -26,6 +27,7 @@ class ProductProvider extends Component {
         sidebarOpen: false,
         closeLinks: false,
         links: Links,
+        ownersList: OwnersList,
         services: Services,
         portfolio:Portfolio,
         tools: Tools,

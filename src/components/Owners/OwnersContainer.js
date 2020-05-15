@@ -1,0 +1,25 @@
+import React from 'react';
+import {OwnersList} from '../Context/Data';
+import { Route } from 'react-router-dom';
+
+import Owner from './Owner';
+import Ownsers from './Ownsers';
+import Title from '../Title';
+
+const FilmsContainer = (props) =>  {
+    let filmsUrl = OwnersList.map((film) => {
+        return (
+            <Route path={`/owners/${film.url}`} render={() => <Owner image={film.profile_img} name={film.name} details={film.description}  />} />
+        )
+    });
+    return (
+        <>
+
+            <Route exact path="/owners" render={() => <Ownsers title="Owners"/>} />
+            
+            {filmsUrl}
+        </>
+    )
+};
+
+export default FilmsContainer;

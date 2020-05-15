@@ -10,6 +10,7 @@ import Default from './Pages/Default';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import {Switch, Route} from 'react-router-dom';
+import OwnersContainer from './components/Owners/OwnersContainer';
 
 
 
@@ -27,6 +28,8 @@ function App() {
         <Route exact path="/Interios" component={Interiors} />
         <Route exact path="/Events" component={Events} />
         <Route exact path="/Contact" component={Contact} />
+        
+        <Route path="/owners" render={() => <OwnersContainer title="Content Creator" />  } />
         <Route path="/Default" component={Default} />
       </Switch>
       
