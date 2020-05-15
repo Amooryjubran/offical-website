@@ -168,27 +168,13 @@ export const blogItems=[
 
 // ownsers
 export const OwnersList = [
-    {
-        name: "Protasio Saldutti",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
-        img_src:"https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-        position: "winner",
-        profile_img: "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-        url: "Lorem1"
-    },
-    {
-        name: "Massimo Ridolfi",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
-        img_src: "https://images.pexels.com/photos/2544829/pexels-photo-2544829.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-        id: "nominee",
-        profile_img: "https://images.pexels.com/photos/2544829/pexels-photo-2544829.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-        url: "Lorem2"
-    },
+    
+
     {
       name: "Iginia Novella",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
       img_src: "https://images.pexels.com/photos/3785706/pexels-photo-3785706.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-      profile_img: "https://images.pexels.com/photos/3785706/pexels-photo-3785706.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      profile_img: "https://images.pexels.com/photos/3767425/pexels-photo-3767425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       url: "Lorem3"
     },
     {
@@ -213,7 +199,23 @@ export const OwnersList = [
         profile_img: "https://images.pexels.com/photos/2494646/pexels-photo-2494646.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
         
         url: "Lorem6"
-    }
+    },
+    {
+        name: "Massimo Ridolfi",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
+        img_src: "https://images.pexels.com/photos/2544829/pexels-photo-2544829.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        id: "nominee",
+        profile_img: "https://images.pexels.com/photos/2544829/pexels-photo-2544829.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        url: "Lorem2"
+    },
+    {
+        name: "Protasio Saldutti",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
+        img_src:"https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        position: "winner",
+        profile_img: "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        url: "Lorem1"
+    },
 ];
 
 // famous interiors
