@@ -13,7 +13,7 @@ const Owners = (props) => {
                         
                     </div>
                 </Link>
-                <h3>{owner.name}</h3>
+                <h3 className="names">{owner.name}</h3>
             </div>
         )
     })
@@ -23,7 +23,7 @@ const Owners = (props) => {
     return (
         <div className="main-content"> 
         <div><Link className="back" to="/" >Back</Link></div>
-            <h2>{props.title}</h2>
+            <h2 className="namesss">{props.title}</h2>
         <div className="container" id="theowners" >
             {owners}
             

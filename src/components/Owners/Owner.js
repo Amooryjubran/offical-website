@@ -9,7 +9,7 @@ export const Owner = (props) => {
             <h2>{props.id}</h2>
             <div className="container" id="theowners">
                 <div className="owner-profile-image" style={{ backgroundImage: "url(" + props.image + ")" }}></div>
-                <h2>{props.name}</h2>
+                <h2 className="namesssss">{props.name}</h2>
                 <p>{props.details}</p>
             </div>
         </div>
