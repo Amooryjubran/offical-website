@@ -10,13 +10,15 @@ export default function AboutProduct() {
              <div className="aboutContact-center">
 
                  <div className="aboutContact-info">
-                 <p><span><i className='fas fa-user'></i></span>Nick Carter</p>
+                 <p><span><i className='fas fa-user'></i></span>Taste of Rome</p>
 
-                    <p><span><i className='fas fa-phone-alt'></i></span>+30 666-32-444</p>
+                    <p><span><i className='fas fa-phone-alt'></i></span>+1 647 677 9695</p>
 
-                    <p><span><i className='fas fa-envelope'></i></span>ncarter@gmail.com</p>
+                    <p><span><i className='fas fa-envelope'></i></span>tasteofrome@gmail.com</p>
 
-                    <p><span><i className='fas fa-user'></i></span>street jones,21 Athens (Greece)</p>
+                    <p><span><i className='fas fa-user'></i></span>1455 Boulevard, Montreal, QC H3G1M8
+
+</p>
                  </div>
 
                  <div className="aboutContact-form">

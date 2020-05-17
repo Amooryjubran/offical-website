@@ -27,9 +27,8 @@ function App() {
         <Route exact path="/Biography" component={Biography} />
         <Route exact path="/Interios" component={Interiors} />
         <Route exact path="/Events" component={Events} />
-        <Route exact path="/Contact" component={Contact} />
-        
         <Route path="/owners" render={() => <OwnersContainer title="Content Creator" />  } />
+        <Route exact path="/Contact" component={Contact} />
         <Route path="/Default" component={Default} />
       </Switch>
       

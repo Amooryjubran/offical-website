@@ -27,17 +27,19 @@ export const Links=[
         link:"Events",
         path:'/events'
     },
+  
+    
     {
         id:6,
-        link:"Contact",
-        path:'/contact'
-    },    
-    {
-        id:7,
         link:"Owners",
         path:'/Owners'
     },
     
+    {
+        id:7,
+        link:"Contact",
+        path:'/contact'
+    },  
 ]
 
 
@@ -258,9 +260,9 @@ export const Interiors=[
 export const Events=[
     {
         id:1,
-       name:'John Jones',
+       name:'Bertram Leblanc',
        date:"01-03-2020",
-       area:'athens'
+       area:'Montreal'
        
     
        
@@ -269,7 +271,7 @@ export const Events=[
         id:2,
         name:'mika jack',
         date:"22-03-2020",
-        area:'Chalcis'
+        area:'Toronto'
         
      
     },
@@ -277,56 +279,56 @@ export const Events=[
         id:3,
         name:'sara conor',
         date:"22-05-2020",
-        area:'Sallonika'
+        area:'Ottawa'
       
     },
     {
         id:4,
-        name:'mika jack',
+        name:'Laila Prentice',
         date:"17-06-2020",
-        area:'Athens'
+        area:'Dubai'
       
     },
     {
         id:5,
         name:'carla jameson',
         date:"27-06-2020",
-        area:'giannena'
+        area:'LA'
       
     },
     {
         id:6,
         name:'John best',
         date:"04-07-2020",
-        area:'Athens'
+        area:'San Diego'
       
     },
     {
         id:7,
-        name:'clara sant',
+        name:'Nico Kavanagh',
         date:"17-08-2020",
         area:'trikala'
       
     },
     {
         id:8,
-        name:'michel jonas',
+        name:'Billie-Jo Bull',
         date:"28-086-2020",
-        area:'salonka'
+        area:'Vancouver'
       
     },
     {
         id:9,
-        name:'mika jack',
+        name:'Beatrix Mcneill',
         date:"23-09-2020",
-        area:'Athens'
+        area:'North York'
       
     },
     {
         id:10,
-        name:'zina cloud',
+        name:'Trixie Wills',
         date:"17-10-2020",
-        area:'Athens'
+        area:'Quebec'
       
     },
    
