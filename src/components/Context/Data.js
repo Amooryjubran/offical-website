@@ -7,38 +7,28 @@ export const Links=[
         link:"Home",
         path:'/'
     },
-    {   
-        id:2,
-        link:"Blog",
-        path:'/blog'
-    },
     {
-        id:3,
+        id:2,
         link:"Biography",
         path:'/biography'
     },
-    {
-        id:4,
-        link:"Interiors",
-        path:'/Interios'
-    },
     {  
-        id:5,
+        id:3,
         link:"Events",
         path:'/events'
     },
   
     
     {
-        id:6,
-        link:"Owners",
-        path:'/Owners'
+        id:4,
+        link:"Contact",
+        path:'/contact'
     },
     
     {
-        id:7,
-        link:"Contact",
-        path:'/contact'
+        id:5,
+        link:"Owners",
+        path:'/Owners'
     },  
 ]
 

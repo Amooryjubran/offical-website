@@ -1,9 +1,8 @@
 import React from 'react';
 import './App.css';
 import Home from './Pages/Home';
-import Blog from './Pages/Blog';
+
 import Biography from './Pages/Biography';
-import Interiors from './Pages/Interiors';
 import Events from './Pages/Events';
 import Contact from './Pages/Contact';
 import Default from './Pages/Default';
@@ -11,9 +10,6 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import {Switch, Route} from 'react-router-dom';
 import OwnersContainer from './components/Owners/OwnersContainer';
-
-
-
 
 function App() {
   return (
@@ -23,9 +19,9 @@ function App() {
 
       <Switch >
         <Route exact path="/" component={Home} />
-        <Route exact path="/Blog" component={Blog} />
+        
         <Route exact path="/Biography" component={Biography} />
-        <Route exact path="/Interios" component={Interiors} />
+        
         <Route exact path="/Events" component={Events} />
         <Route path="/owners" render={() => <OwnersContainer title="Content Creator" />  } />
         <Route exact path="/Contact" component={Contact} />

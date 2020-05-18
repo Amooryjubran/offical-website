@@ -17,7 +17,7 @@ export default function RecentEvents() {
             <div className="recentEvents-center">
                 <table className="table">
                     <tr>
-                        <th>Interiors</th>
+                        <th>Events</th>
                         <th>Date</th>
                         <th>Place</th>
                     </tr>

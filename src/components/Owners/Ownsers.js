@@ -7,7 +7,7 @@ const Owners = (props) => {
     let owners = OwnersList.map((owner) => {
         return (
             
-            <div className="owner-container">
+            <div className="owner-container" >
                 <Link to={`/owners/${owner.url}`} >
                     <div className="owner-image"  style={{ backgroundImage:"url(" + owner.img_src + ")"  }}>
                         
@@ -21,7 +21,9 @@ const Owners = (props) => {
  
  
     return (
-        <div className="main-content"> 
+        <div className="main0owner" id="main0owner">
+
+        <div className="main-content" > 
         <div><Link className="back" to="/" >Back</Link></div>
             <h2 className="namesss">{props.title}</h2>
         <div className="container" id="theowners" >
@@ -29,6 +31,7 @@ const Owners = (props) => {
             
         </div>
     </div>
+        </div>
     )
 }
 

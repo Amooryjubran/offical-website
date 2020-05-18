@@ -2,7 +2,7 @@
   
 
 .main-content {
-    max-width: 90%;
+   
     margin: auto;
     padding-bottom: 50px;
     /* background-color: whitesmoke; */
@@ -12,6 +12,13 @@
     
 }
 
+#main0owner{
+    background-image: url('https://images.pexels.com/photos/977893/pexels-photo-977893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 .main-content h2{
     text-align: center;
     margin-bottom: 20px;
@@ -26,12 +33,24 @@
     flex-wrap: wrap;
     
 }
+.p-owner{
+    background-color: orange;
+    color: white;
+    font-size: large;
+    opacity: 0.8;
+}
+.theownerprofile{
+    background-image: url('https://images.pexels.com/photos/977893/pexels-photo-977893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-
+}
 
 .owner-container {
     display: inline-block;
     text-align: center;
+    
     
 }
 
@@ -81,12 +100,13 @@
 }
 
 .names {
-    background-color: lightslategrey;
+    background-color: orange;
     color: white;
-    
+    opacity: 0.7;
 }
 .namesssss{
-    background-color: lightslategrey;
+    background-color: orange;
     margin-top: 30px;
     color: white;
+    
 }
