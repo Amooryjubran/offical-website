@@ -164,49 +164,49 @@ export const OwnersList = [
 
     {
       name: "Iginia Novella",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
+      description: "Iginia Novella is the ceo of Taste Of Rome. She's working full-time on the restruant to provide all what the resturant needs",
       img_src: "https://images.pexels.com/photos/3785706/pexels-photo-3785706.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
       profile_img: "https://images.pexels.com/photos/3767425/pexels-photo-3767425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      url: "Lorem3"
+      url: "Iginia"
     },
     {
         name: "Magda Novella",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
+        description: "Magda Novella is the founder of Taste Of Rome. She founded the Taste Of Rome with her husband in 1960. She is an amazing cook, and that is why she founded it",
         img_src: "https://images.pexels.com/photos/3785710/pexels-photo-3785710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         profile_img: "https://images.pexels.com/photos/3785693/pexels-photo-3785693.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-        url: "Lorem4"
+        url: "Magda"
     },
     {
         name:"Gerardo Tomaro",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
+        description: "Gerardo Tomaro is the person who is in charged of the relations of Taste of Rome. He sets up all the meeting for advertisments and designs.",
         
         profile_img: "https://images.pexels.com/photos/3692762/pexels-photo-3692762.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
         img_src: "https://images.pexels.com/photos/3692763/pexels-photo-3692763.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        url: "Lorem5"
+        url: "Gerardo"
     },
     {
         name: "Cesare Riotto",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
+        description: "Cesare Riotto is one of the chefs of Taste Of Romes. He sets up all the ingreiedents for the resturnats and makes sure that the resturant has all it needs",
         img_src: "https://images.pexels.com/photos/2494654/pexels-photo-2494654.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
         profile_img: "https://images.pexels.com/photos/2494646/pexels-photo-2494646.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
         
-        url: "Lorem6"
+        url: "Cesare"
     },
     {
         name: "Massimo Ridolfi",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
+        description: "Massimo Ridolfi is the second chef of Taste of Rome, he cooks most of the food with the team of chefs. He has been working in italian resturants for over a decade.",
         img_src: "https://images.pexels.com/photos/2544829/pexels-photo-2544829.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
         id: "nominee",
         profile_img: "https://images.pexels.com/photos/2544829/pexels-photo-2544829.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-        url: "Lorem2"
+        url: "Massimo"
     },
     {
         name: "Protasio Saldutti",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab obcaecati quidem odit enim eius temporibus error non, quis eligendi?",
+        description: "Protasio Saldutti is the main chef of Taste Of Rome. He creats all the resipes of the resturant. Based on his 20 years of expernice with italian food, he always comes up with new recipes. ",
         img_src:"https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
         position: "winner",
         profile_img: "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-        url: "Lorem1"
+        url: "Protasio"
     },
 ];
 
