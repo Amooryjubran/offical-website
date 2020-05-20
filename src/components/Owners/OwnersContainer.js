@@ -15,7 +15,7 @@ const FilmsContainer = (props) =>  {
     return (
         <>
 
-            <Route exact path="/owners" render={() => <Ownsers title="Owners"/>} />
+            <Route exact path="/owners" render={() => <Ownsers title="Owners"/>}/>
             
             {filmsUrl}
         </>

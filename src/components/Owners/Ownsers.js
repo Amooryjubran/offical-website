@@ -13,7 +13,7 @@ const Owners = (props) => {
                         
                     </div>
                 </Link>
-                <h3 className="names">{owner.name}</h3>
+                <h3 className="names"><span className="background-name">{owner.name}</span></h3>
             </div>
         )
     })
