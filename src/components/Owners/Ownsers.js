@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 import {OwnersList} from '../Context/Data';
+import Title from '../Title';
 
 
 const Owners = (props) => {
@@ -22,9 +23,14 @@ const Owners = (props) => {
  
     return (
         <div className="main0owner" id="main0owner">
-
+<div><Link className="back" to="/" >Back</Link></div>
+                            <div className="inside-container" style={{backgroundColor: 'black', width: '200px', opacity: '0.7'}}>
+                                <Title title="The Owners" color="white" />
+                            </div>
+        
+       
         <div className="main-content" > 
-        <div><Link className="back" to="/" >Back</Link></div>
+        
             <h2 className="namesss">{props.title}</h2>
         <div className="container" id="theowners" >
             {owners}

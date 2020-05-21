@@ -34,7 +34,7 @@
     
 }
 .p-owner{
-    background-color: orange;
+    background-color: #26bd74;
     color: white;
     font-size: large;
     opacity: 0.8;
@@ -112,8 +112,19 @@
     opacity: 0.7;
 }
 .namesssss{
-    background-color: orange;
+    background-color: black;
+    opacity: 0.8;
     margin-top: 30px;
     color: white;
     
+}
+.nammmmm{
+    color: violet;
+}
+
+.span-title{
+    background-color: wheat;
+}
+.ttt{
+    background-color: blue;
 }

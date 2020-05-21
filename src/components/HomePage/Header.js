@@ -10,23 +10,24 @@ export default function Header() {
         <HeroWrapper>
             <div className="inside-container">
                 <div className="heroTexts">
-                    <Bounce left duration={1}>
+                    <Bounce left duration={3000}>
                         <h1>Taste Of Rome <span role="img" aria-label="pizza">🍕</span></h1>
                     </Bounce>
-                    <Bounce right duration={1}>
-                    <h1>making people happy</h1>
+                    <Bounce right duration={3000}>
+                    <h1 style={{fontSize: '25px'}}>making people happy</h1>
                     </Bounce>
                     
                 </div>
                 <div className="pizza" style={{marginLeft: '-590px'}}>
-
-                <hr style={{color: 'white', width : '450px'}}/>
-                <h1 style={{color: 'white', marginTop: '35px', marginBottom: '35px', fontSize: '25px', fontWeight: '400'}}>Your Italian homemade food is right here</h1>
+                <Bounce right duration={4000}>
+                <hr style={{color: 'white', width : '350px', marginTop: '10px'}}/>
+                <h1 style={{color: 'white', marginTop: '25px', marginBottom: '35px', fontSize: '20px', fontWeight: '400'}}>Your Italian homemade food is right here</h1>
                 <button style={{backgroundColor: 'Transparent', height: '40px', width: '100px',
                 backgroundRepeat: 'no-repeat', border: '2px solid white', cursor: 'pointer', color: 'white'}}>Book Now ></button>
                 <button style={{backgroundColor: 'orange',border: 'none', color: 'black',
                  height: '40px', width: '100px', marginLeft: '20px', cursor: 'pointer'
                 }}>See Menu ></button>
+                </Bounce>
                 </div>
             </div>
         </HeroWrapper>

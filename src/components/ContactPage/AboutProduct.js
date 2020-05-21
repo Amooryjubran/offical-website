@@ -6,7 +6,7 @@ export default function AboutProduct() {
     return (
         <div className="aboutContact">
           <div className="inside-container">
-              <Title title="contact us" color="grey" />
+              <Title title="contact us" color="black" />
              <div className="aboutContact-center">
 
                  <div className="aboutContact-info">
