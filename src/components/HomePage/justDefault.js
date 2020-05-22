@@ -8,7 +8,7 @@ export default function JustDefault() {
                 <Title title="Italy is right here" color="#fff" />
                 <div className="just-default-center">
                     <div className="just-texts">
-                        <p>TASTE OF ROME offers the real italian food, it makes you feel like you are in Italy. You do not have to travel all the way to Italy to try the food, TASTE OF ROME provides it for you </p>
+                        <p>span TASTE OF ROME offers the real italian food, it makes you feel like you are in Italy. You do not have to travel all the way to Italy to try the food, TASTE OF ROME provides it for you </p>
 
                     </div>
                     <div className="just-video">

@@ -5,7 +5,7 @@ export default function Specials() {
     return (
         <div className="testimonial">
              <div className="inside-container">
-                 <Title title="Specials" color="#989c9f" />
+                 <Title title="Specials" color="#49494d" />
                  <div className="testimonial-center">
                      <div className="testimonial-texts">
                          <p>We provide a new service called Tase of Rome's Events, where you can set up an event for wherever you are when ever you want, and enjoy it with your friends and family.</p>

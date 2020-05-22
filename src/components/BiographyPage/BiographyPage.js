@@ -25,7 +25,7 @@ export default function BiographyPage() {
                 <li>
                     <a href="#">
                      <p className="p1">PORTFOLIO</p>
-                     <p>MY ART WORDS</p>
+                     <p>MY WORDS</p>
                     </a>
                         
                 </li>
@@ -57,7 +57,7 @@ export default function BiographyPage() {
                     <div className="person-texts">
                         <Title title="Valentino Vazzanae" color="#fff" />
                         <Bounce right duration={2000} cascade>
-                        <p>
+                        <p style={{lineHeight: '1.6', marginTop: '25px'}}>
                             Valentino has been a chef for 30 years, he's been making the real italian reciepes from his italian family to the resturant. He was nominated one of the best chefs in the country. Our customers are obessed with the pizzas he makes. He's also very friendly and passionate about cooking.
                         </p>
                         </Bounce>

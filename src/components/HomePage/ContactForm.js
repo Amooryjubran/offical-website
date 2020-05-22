@@ -20,8 +20,8 @@ export default function ContactForm() {
 
               <div className="form-texts">
                   <p>Feel free to contact us with your orders, events, suggestions, recoomendations, and feednack. We are always open for them and will response to you withen 24 hours. Please right it down and send it to us. </p>
-                  <p>Taste Of Rome</p>
-                  <p>1455 Boulevard de Maisonneuve, Montreal, QC H3G1M8</p>
+                  <p style={{marginTop: '30px'}}>Taste Of Rome</p>
+                  <p >1455 Boulevard de, Montreal, QC H3G1M8</p>
                   <p>(514) 123-4567</p>
               </div> 
 

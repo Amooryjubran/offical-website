@@ -34,10 +34,11 @@
     
 }
 .p-owner{
-    background-color: #26bd74;
+    background-color: black;
     color: white;
     font-size: large;
-    opacity: 0.8;
+    opacity: 0.6;
+    padding: 7px 10px;
 }
 .theownerprofile{
     background-image: url('https://images.pexels.com/photos/977893/pexels-photo-977893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
@@ -106,16 +107,17 @@
     
 }
 .background-name{
-    background-color: #26bd74;
-    
+    background-color: black;
+    color: white;
     padding: 7.5px;
-    opacity: 0.7;
+    opacity: 0.4;
 }
 .namesssss{
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.69;
     margin-top: 30px;
     color: white;
+    padding: 5px 10px;
     
 }
 .nammmmm{

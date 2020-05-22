@@ -32,12 +32,22 @@
 
 .single-service .fas{
     font-size: 40px;
+    color: #ffa347;
   
 }
 .single-service .texts h2{
     font-weight: 400;
+    margin-top: 15px;
     
 }
+
+.service-explain{
+  margin-top: 15px;
+  line-height: 1.4;
+  
+  
+}
+
 
 /* responsive */
 @media screen and (min-width:664px){
@@ -173,10 +183,12 @@
 
 .just-texts{
   margin-bottom: 40px;
+  line-height: 1.6;
+  
 }
 
 .just-texts p{
-  color:#fff;
+  color:whitesmoke;
   padding-top:20px;
 }
 
@@ -259,7 +271,7 @@
 }
 
 .twitter-center{
-  color:#989c9f;
+  color: #49494d;
   ;
   position: relative;
 }
@@ -293,7 +305,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.texts{
+  line-height: 1.5;
+}
 .whoIs-center .texts,
 .whoIs-center .text-icons{
   color:#e8f0f7
@@ -376,13 +390,14 @@
 }
 
 .testimonial-center{
-  color:#989c9f;
+  color:black;
   position: relative;
 }
 
 .testimonial-texts{
   margin-right: 30px;
-
+margin-top: 25px;
+line-height: 30px;
 }
 
 .testimonial-icon{
@@ -433,6 +448,7 @@
 
 .form-texts{
   margin:30px 0;
+  line-height: 1.6;
 }
 
 .form-texts p:nth-of-type(1){

@@ -22,7 +22,7 @@ export default function Services() {
                                             <div className="texts">
                                                 <h2>{service.column}</h2>
                                             </div>
-                                            <p>{service.text}</p>
+                                            <p className="service-explain">{service.text}</p>
                                         </div>
                                         </Roll>
                                        
