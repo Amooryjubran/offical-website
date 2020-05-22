@@ -1,4 +1,17 @@
-Taste of Rome
+
+LIVE DEMO : https://pizzataste.netlify.app/
+
+Taste of Rome is a webstie that was built using React Js and :
+
+* React Router Dom
+
+* Styled Components
+
+* Font Awesome
+
+* React Reveal
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
